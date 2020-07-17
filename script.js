@@ -787,10 +787,10 @@ function currentLocation () {
         var long= position.coords.longitude;
         
         // call to google API to get location by longitude and latitude
-        $.get("https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lat + "," + long + "&key=AIzaSyAJ67XPqFCkQROFj98MvLbeDMnxkKsCWpM",function(){
+        $.get("https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lat + "," + long + "&key=AIzaSyABmxbmz0T3KdFLrhG46ryUoKruaHr-vIE",function(){
             // create img element and getting map image of longitude and latitude location and append to index.html
             var imgEl = $("<img width=80%>");
-            imgEl.attr("src", "https://maps.googleapis.com/maps/api/staticmap?center=" + lat + "," + long + "&zoom=13&size=250x250&key=AIzaSyAJ67XPqFCkQROFj98MvLbeDMnxkKsCWpM")
+            imgEl.attr("src", "https://maps.googleapis.com/maps/api/staticmap?center=" + lat + "," + long + "&zoom=13&size=250x250&key=AIzaSyABmxbmz0T3KdFLrhG46ryUoKruaHr-vIE")
             imgEl.attr("class", "map-image")
                 $("#current-location").append(imgEl)
 
@@ -1087,7 +1087,7 @@ $("#new-location").on("click", function(){
             }
 
     // display image of map of new location
-    $(".map-image").attr("src", "https://maps.googleapis.com/maps/api/staticmap?center="+ city1 + "," + state1 + "&zoom=13&size=950x950&key=AIzaSyAJ67XPqFCkQROFj98MvLbeDMnxkKsCWpM")
+    $(".map-image").attr("src", "https://maps.googleapis.com/maps/api/staticmap?center="+ city1 + "," + state1 + "&zoom=13&size=950x950&key=AIzaSyABmxbmz0T3KdFLrhG46ryUoKruaHr-vIE")
    $(".city-name").text("You are in " + city1 + ", " +state1)
    
 
