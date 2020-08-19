@@ -2,7 +2,7 @@
  
 ## Description
 
-Get Prepared is a disaster preparation app for disasters common in your area. 
+Get Prepared is a disaster preparation website application for disasters common in a users area and provides a disaster preparation list based on those natural disasters. This application also provides historic data on natural disasters that occured in each section of the United States. 
 
 ## Table of Contents
 
@@ -65,7 +65,7 @@ No tests to run.
 - CSS
 - JavaScript
 - jQuery
-- Google Maps, Weather, Mapquest API
+- Google Maps, OpenWeatherMap, Mapquest API
 
 
 ## Collaborators
@@ -93,5 +93,7 @@ Cyrus - https://github.com/Croatia99
 ## Deployed Application URL
 
 Deployed application link: https://kendayao.github.io/project1/
+
+Video demo link: https://giphy.com/gifs/jQn8VHnBVqNAeVcQhZ/fullscreen
 
 <img src="images/getprepared.png" width="400" height="300">
