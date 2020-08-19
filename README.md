@@ -92,7 +92,7 @@ Cyrus - https://github.com/Croatia99
 
 ## Deployed Application URL
 
-Deployed application link: https://kendayao.github.io/project1/
+Deployed application link: https://kendayao.github.io/Get_Prepared/
 
 Video demo link: https://giphy.com/gifs/jQn8VHnBVqNAeVcQhZ/fullscreen
 
